@@ -1,0 +1,106 @@
+/* Reset default margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a reasonable default font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Center align the content */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 200px; /* Limiting the maximum width for smaller screens */
+}
+
+h1,
+h2 {
+  margin-top: 20px;
+}
+
+input[type='text'] {
+  padding: 8px;
+  width: 100%; /* Make input full width */
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style the update and delete buttons */
+.update-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #ae2727;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background-color: #2ce663;
+}
+
+.delete-btn:hover {
+  background-color: #ef0b0b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
